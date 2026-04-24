@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #Load data
-day_df = pd.read_csv('day.csv')
+day_df = pd.read_csv('Data/day.csv')
 
 #layout halaman
 st.set_page_config(layout="wide")
