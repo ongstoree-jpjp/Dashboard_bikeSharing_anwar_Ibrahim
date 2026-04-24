@@ -98,7 +98,7 @@ fig1, ax1 = plt.subplots()
 sns.barplot(data=group_day, x="day_type", y="cnt", ax=ax1)
 ax1.set_xlabel("Tipe Hari")
 ax1.set_ylabel("Rata-rata Penyewaan Sepeda")
-ax1.set_title("Rata-rata Penyewaan: Working Day vs Holiday")
+ax1.set_title("Rata-rata Penyewaan: Hari Kerja vs Hari Libur")
 
 st.pyplot(fig1)
 
